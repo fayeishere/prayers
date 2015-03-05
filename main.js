@@ -10,7 +10,15 @@ NE.main = (function() {
           e.preventDefault();
           // alert( "Handler for .click() called." );
           $("#myForm").hide();
+          // $("#received").show();
+          $("#pay-your-shit").show();
+
+        });
+        $( "#pay-your-shit" ).click(function(e) {
+          e.preventDefault();
+          // alert( "Handler for .click() called." );
           $("#received").show();
+          $("#pay-your-shit").hide();
 
         });
     }

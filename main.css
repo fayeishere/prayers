@@ -37,6 +37,12 @@ form{
   width: 200px;
   margin: 0 auto;*/
 }
-#received{
+#received, #pay-your-shit{
   display: none;
+}
+#pay-your-shit{
+  height: 400px;
+  width: 400px;
+  background-color: #fff;
+  color: #000;
 }
